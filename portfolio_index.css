@@ -61,3 +61,24 @@ nav{
     font-weight:bold;
 }
 
+/* About me page*/
+#About-me{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.about_info_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.about_picture{
+    width: 100px;
+    height: 100px;
+}
+.about_picture2{
+    width:100%;
+    
+}
