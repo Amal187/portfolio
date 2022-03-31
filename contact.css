@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./Images/background2.png);
+    
+}
+
+
+
+background-image{
+    
+    min-width: 100%;
+    min-height: 100%;
+    height: auto; 
+    width:100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.information{
+    margin-top: 80px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+
+}
+.information h1{
+    font-size: 32px;
+    line-height: 20px;
+}
+.information p{
+     margin-top:30px;
+    font-size: 20px;
+
+}
+.form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
