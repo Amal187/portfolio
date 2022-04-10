@@ -76,6 +76,7 @@ nav{
     flex-direction: column;
 
 } 
+
 .about_info_section{
     display: flex;
     flex-direction: column;
@@ -85,6 +86,10 @@ nav{
     text-align: center;
 
 }
+.orange{
+color: orange;
+}
+
 .about_picture{
     width: 200px;
     height: 200px;
@@ -106,4 +111,12 @@ nav{
 }
 .about_me_title{
     margin-bottom: 16px;
+}
+
+.about_img_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1350px;
+    height: 600px;
 }
