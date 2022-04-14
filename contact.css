@@ -1,16 +1,19 @@
 *{
     margin:0;
     padding:0;
+
 }
 body{
-    background-color: aquamarine;
+    background-color: #364a61;
+    background-position: right center;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif
    
 
-}.header{
+}.info{
     width:80%;
     margin: 50px auto;
+    color: #FFD580;
 }
 .contact-form{
     background: #fff;
@@ -24,13 +27,13 @@ body{
 .rightside{
     flex-basis: 40%;
     padding: 40px;
-    background: blue;
-    color:white;
+    background:#FFD580;
+    color:#364a61;
 }
 h1{
     margin-bottom: 10px;
-}
-.header p{
+}    
+.info p{
     margin-bottom: 40px;
 }
 .contactrow{
@@ -58,10 +61,10 @@ textarea{
 label{
     margin-bottom: 6px;
     display:block;
-    color: blue;
+    color:orange;
 }
 button{
-    background: #1c00b5;
+    background:orange;
     width:100px;
     border:none;
     outline:none;
@@ -69,15 +72,15 @@ button{
     height: 35px;
     border-radius: 30px;
     margin-top: 20px;
-    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+    box-shadow: 0px 5px 15px 0px rgba(181, 130, 0, 0.3);
 }
 .leftside h3{
-    color: #1c00b5;
+    color: orange;
     font-weight: 600;
     margin-bottom: 30px;
 }
 .rightside h3{
-    color:#1c00b5;
+    color:white;
     font-weight: 600;
     margin-bottom: 30px;
 }
