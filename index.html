@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="abouttest.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="mobile.css"
+  media="screen and (min-width: 300px) and (max-width: 800px)" />
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>My Web Page!</title>
 
@@ -12,56 +15,68 @@
   </head>
   <body>
     <header>
-     
-</header>
-<nav> 
+      <section id="brand"><a href="/">Amal Alame</a></section>
+      <nav> 
   
-           <ul class="nav_links" id="menu">
-               <li><a href="index.html">Home</a></li>
-               <li><a href="portfolio.html">Portfolio</a></li>
-               <li><a href="contact.html">Contact</a></li>
-               <li><a href="blog.html">Blog</a></li>
-               <li><a href="sitereport.html">Sitereport</a></li>
-            
-    </nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="sitereport.html">Sitereport</a></li>
+          </ul> 
+      </nav>
+ <section id="hamburger-icon" onclick="toggleMobileMenu(this)">
+   <section class="bar1"></section>
+   <section class="bar2"></section>
+   <section class="bar3"></section>
+   <ul class="mobile-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="sitereport.html">Sitereport</a></li>
+   </ul>
+ </section>
 
-    <main>
-      <section class="about_info">
-        <section class="about_info_section"> 
-            <figure class="about_picture">
-                <img src="./Images/web-development1.jpg" class="about_picture2" alt="Profile Picture of Amal Alame">
-            </figure>
-            <h1 class="about_me_title">
-                Hello, I am <span class="white">Amal Alame</span>
-            </h1>
-            <p class="about_me_paragraph">
-               Hello, I am a <span class="white">software developerand web designer</span> now residing in the United Kingdom. I am a computer science graduate. To create innovative and functional websites for customers, I combine my degree with 4 years of business expertise in HTML, JAVASCRIPT, PYTHON, and design. I appreciate simplifying difficult problems into simple and understandable answers.
-           </p>
+  </header>
+  <script src="index.js"></script>
 
-           <p></p>
 
-   
-        </section>
+  <main>
+  <section class="about_info">
+    <section class="about_info_section"> 
+        <figure class="about_picture">
+            <img src="./Images/web-development1.jpg" class="about_picture2" alt="Profile Picture of Amal Alame">
+        </figure>
+        <h1 class="about_me_title">
+            Hello, I am <span class="white">Amal Alame</span>
+        </h1>
+        <p class="about_me_paragraph">
+           Hello, I am a <span class="white">software developerand web designer</span> now residing in the United Kingdom. I am a computer science graduate. To create innovative and functional websites for customers, I combine my degree with 4 years of business expertise in HTML, JAVASCRIPT, PYTHON, and design. I appreciate simplifying difficult problems into simple and understandable answers.
+       </p>
+
+
+
+
+    </section>
 </section>
 
-    </main>
-
-<aside>
-  <section class="logo">
-    <p>Amal Alame</p>
-  </section>
-  
-
-</aside>
+</main>
 
 
 <footer>
 
-  <a href="#" class="fa fa-facebook"></a>
-  <a href="#" class="fa fa-twitter"></a>
-  <a href="#" class="fa fa-instagram"></a>
- 
- 
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+
+
 </footer>
 </section> 
+</header>
+
+
+
 </body>
+</html>
