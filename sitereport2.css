@@ -106,7 +106,7 @@ nav {
 }
 */body {
     display : grid;
-    grid-template-columns : 100% ;
+    grid-template-columns : 100%;
     grid-template-areas : "header header header"
                           "nav nav nav" 
                           "main main main"

@@ -12,12 +12,23 @@ nav {
  header {
     grid-area : header;
     font-size : 2.5em;
-    text-align : center;
+    text-align: center;
     color : #FFD580;
     margin-top : 1em;
     margin-bottom : 1em;
         }
-
+ h3{
+    margin-top: 2em;
+    color: white;
+}
+h2{
+    color: white;
+    font-size: 1.3em;
+   
+}
+p{
+    margin-top: 1em;
+}
  main{
      grid-area: main;
      margin-bottom: 5em;
@@ -33,17 +44,21 @@ nav {
     width: 100%;
     text-align: center;
     background-color: #364a61;
-    padding: 8px;
-    margin-top: 20px;
+    padding: 0.5em;
+    margin-top: 1.25em;
     display: block;
     color:#FFD580;
+    font-size: 1.5em;
+    line-height: 1.6em;
 }
 .summary{
     float: left;
     width: 100%;
-    padding: 0 20px;
+    padding: 0 1.25em;
     background-color: #364a61;
     color: #FFD580;
+    font-size: 1.3em;
+    line-height: 1.6em;
 
 }
 .screenshots{
@@ -51,9 +66,10 @@ nav {
     color: #FFD580;
     float: left;
     width:100%;
-    padding:15px;
+    padding:17px;
     margin-top: 7px;
     text-align: center;
+    font-size: 1.3em;
 }
 
 
@@ -62,6 +78,7 @@ nav {
     width: 33%;
     padding:100px;
     color: #FFD580;
+    margin-top: 1em;
 }
 .row:after{
         content: "";
@@ -75,46 +92,6 @@ max-height: 1000px;
 text-align: center;
 
 }
-
-
-
-
-
-
-
-/*.column1 {
-    grid-area : left;
-    background-color : #FFD580;
-    height : 30em;
-    width : 20em;
-    border : solid 0.0625em;
-    padding : 0.6em;
-    border : solid 1px;
-    padding : 0.6em;
-    color : white;
-    
-    }
-.column2 {
-    grid-area : center;
-    background-color : #FFD580;
-    height : 30em;
-    width : 20em;
-    border : solid 0.0625em;
-    padding : 0.6em;
-    border : solid 1px;
-    padding : 0.6em;
-    color : white;
-        }
-.column3 {
-    grid-area : right;
-    background-color : #FFD580;
-    height : 35em;
-    width : 21em;
-    border : solid 1px;
-    padding : 0.6em;
-    color : white;
-    padding-right : 2em;
-}*/
 body {
     display: grid;
     grid-template-columns : auto auto auto;
@@ -123,7 +100,7 @@ body {
                           "main main main"
                           "footer footer footer";
                           
-    column-gap: 2em;
+ 
     background-color: #364a61;
     padding-left: 2em;
 }

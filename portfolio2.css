@@ -75,7 +75,7 @@
     grid-template-areas : "header header header" 
                             "nav nav nav" 
                             "left centre right";
-
+    column-gap: 1.5em;
     background-color : #364a61;
     padding-left : 2em;
     }
